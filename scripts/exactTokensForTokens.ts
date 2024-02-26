@@ -59,9 +59,8 @@ const main = async () => {
   const daiBalAfterSwap = await DAI.balanceOf(impersonatedSigner.address);
 
   // Log token balances after swap
-  console.log(
-    "--------------------------------------------------"
-  );
+  console.log( "--------------------------------------------------");
+  console.log( "--------------------------------------------------");
   console.log(
     "USDC balance after swap",
     ethers.formatUnits(usdcBalAfterSwap, 6)
